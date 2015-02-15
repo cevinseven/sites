@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^ranchero.fatsamurai.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.ranchero.fatsamurai.com$
+RewriteRule ^(.*)$ http://www.fatsamurai.com/ranchero/index.html [R=301,L]
+

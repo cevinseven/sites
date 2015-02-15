@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: gridiculous/search.php:14
+msgid " search results for"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-header.php:22
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:464
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/single.php:16
+msgid "%title &rarr;"
+msgstr ""
+
+#. Text in function
+#: gridiculous/single.php:15
+msgid "&larr; %title"
+msgstr ""
+
+#. Text in function
+#: gridiculous/comments.php:39
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in function
+#: gridiculous/single.php:12
+msgid "&larr; Previous Image"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:464
+#: gridiculous/functions.php:488
+#: gridiculous/content-footer.php:9
+msgid "(edit)"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-header.php:22
+msgid "0 Comments"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-header.php:22
+msgid "1 Comment"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/404.php:8
+msgid "404 Error"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:85
+msgid "Add More Widgets"
+msgstr ""
+
+#. Text in function
+#: gridiculous/sidebar.php:13
+msgid "Add your own widgets by going to the %sWidgets admin page%s."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:48
+msgid "Advanced Color Picker"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/sidebar.php:26
+msgid "Archives"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/content-aside.php:10
+msgid "Aside"
+msgstr ""
+
+#. Text in function
+#: gridiculous/archive.php:13
+msgid "Author Archive for %s"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/archive.php:23
+msgid "Blog Archives"
+msgstr ""
+
+#. Text in function
+#: gridiculous/library/preview-pro.php:116
+msgid "Buy %s Now &rarr;"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:65
+msgid "Choose from some of Google Fonts\\' most popular fonts to improve your site\\'s typography and make things look even more amazing."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/comments.php:38
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:70
+msgid "Custom CSS Editor"
+msgstr ""
+
+#. Text in function
+#: gridiculous/archive.php:17
+msgid "Daily Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:96
+msgid "Each page/post has an option to remove both sidebars so you can use the full width of your site to display whatever you want."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:54
+msgid "Easily select one of the eight preset colors or dive even deeper into your customization by using a more specific hex code."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:92
+msgid "Even More Theme Options"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:81
+msgid "Extended Widgetized Footer"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:44
+msgid "Features"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "First Sidebar"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:1
+msgid "Froggy"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:95
+msgid "Full Width Posts/Pages"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:59
+msgid "Google Fonts"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "Header Area"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "Home Page Top Area"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:86
+msgid "If you need to include more widgets on your site, take advantage of the Extended Footer."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:110
+msgid "Import/Export Tool"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/content-link.php:10
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/header.php:49
+msgid "Main menu"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/sidebar.php:17
+msgid "Meta"
+msgstr ""
+
+#. Text in function
+#: gridiculous/archive.php:19
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:99
+msgid "Multiple Sidebar Layouts"
+msgstr ""
+
+#. Text in function
+#: gridiculous/comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: gridiculous/single.php:13
+msgid "Next Image &rarr;"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/index.php:19
+msgid "No posts to display"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/content-none.php:12
+msgid "No results were found. Please try again."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/content-none.php:9
+msgid "Nothing found"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:111
+msgid "Once you\\'ve set up your site exactly how you want, you can easily export the Theme Options and Custom CSS for safe keeping."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:63
+msgid "Over 20 Modern Fonts"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-footer.php:9
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-gallery.php:36
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/functions.php:488
+msgid "Pingback:"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/single.php:10
+msgid "Post navigation"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-status.php:18
+msgid "Posted on %1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-header.php:22
+msgid "Posts by %s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in function
+#: gridiculous/page.php:24
+#: gridiculous/content-link.php:13
+#: gridiculous/content.php:7
+#: gridiculous/content-status.php:21
+#: gridiculous/content-quote.php:12
+#: gridiculous/content-image.php:13
+#: gridiculous/content-aside.php:13
+msgid "Read more &rarr;"
+msgstr ""
+
+#. Text in function
+#: gridiculous/index.php:22
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#. Text in function
+#: gridiculous/library/preview-pro.php:107
+msgid "Shortcodes are awesome and easy to use. That\\'s why %s comes with a bunch, like a slideshow carousel, alert boxes and more."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/header.php:50
+msgid "Skip to content"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:52
+msgid "So Many Colors to Choose From"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:100
+msgid "Sometimes one sidebar just isn\\'t enough, so add a second one and place it where you want."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:75
+msgid "Sometimes the Theme Options don\\'t let you control everything you want. That\\'s where the Custom CSS Editor comes into play."
+msgstr ""
+
+#. Text in function
+#: gridiculous/library/preview-pro.php:53
+msgid "Sometimes the default colors just aren\\'t working for you. With %s you can use the advanced color picker to make sure you get the exact colors you want."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/404.php:11
+msgid "Sorry. We can't seem to find the page you are looking for."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/content-status.php:11
+msgid "Status"
+msgstr ""
+
+#. Text in function
+#: gridiculous/archive.php:15
+msgid "Tag Archive for %s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-footer.php:9
+msgid "Tags:"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:74
+msgid "Take Control of Design"
+msgstr ""
+
+#. Text in function
+#: gridiculous/library/preview-pro.php:39
+msgid "Take your site to the next level with %s. Check out some of the advanced features that\\'ll give you more control over your site\\'s layout and design."
+msgstr ""
+
+#. Text in function
+#: gridiculous/library/message-bar.php:36
+msgid "Thanks for choosing %s. Hope you enjoy using it! %s If you want to see some of the advanced options available in %s, %shere\\'s a little preview%s."
+msgstr ""
+
+#. Text in function
+#: gridiculous/header.php:67
+msgid "The three boxes below are text widgets that have been added to the <em>Home Page Top Area</em>. Add your own widgets by going to the %sWidgets admin page%s or remove this section completely under the <em>Layout panel</em> on the %sTheme Options page%s."
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "This is the sidebar widgetized area. All defaults widgets work great here."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:106
+msgid "Twitter Bootstrap Shortcodes"
+msgstr ""
+
+#. Text in function
+#: gridiculous/library/preview-pro.php:1
+msgid "Upgrade to %s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/library/preview-pro.php:1
+msgid "Upgrade to Pro"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:76
+msgid "Use CSS to style any element without having to worry about losing your changes when you update. All your Custom CSS is safely stored in the database."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:87
+msgid "Use the Theme Options customizer to set the number of columns you want to appear. You can also customize your site\\'s copyright notice."
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:40
+msgid "View the demo video &rarr;"
+msgstr ""
+
+#. Text in echo
+#: gridiculous/library/preview-pro.php:64
+msgid "Web-safe fonts are a thing of the past, so why not try to spice things up a bit?"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "Widgetized area in the header to the right of the site name. Great place for a search box or a banner ad."
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:270
+msgid "Widgetized area on the home page directly below the navigation menu. Specifically designed for 3 text widgets. Must be turned on in the Layout options on the Customize Gridiculous admin page."
+msgstr ""
+
+#. Text in function
+#: gridiculous/archive.php:21
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#. Text in function
+#: gridiculous/functions.php:470
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: gridiculous/content-header.php:22
+msgid "by %s"
+msgstr ""

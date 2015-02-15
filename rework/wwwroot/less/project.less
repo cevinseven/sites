@@ -1,0 +1,61 @@
+//
+// call @font-face as you need to
+//
+// duplicate for your needs and change the
+// variables in the correct places
+//
+//@font-face  {
+//  .font-face(@font-Reg,"/@{base-font-url}/fonts/@{font-Reg}");
+//}
+//@font-face  {
+//  .font-face(@font-Bold,"/@{base-font-url}/fonts/@{font-Bold}");
+//}
+
+///////////////////////////////////////////////////
+//
+// Project specific variables
+//
+///////////////////////////////////////////////////
+
+@project-path: "/sites/rework/wwwroot/img/";
+
+///////////////////////////////////////////////////
+//
+// Project custom styles
+//
+///////////////////////////////////////////////////
+
+
+.rework-wrap {
+  .size(100%, auto);
+  background: gray;
+	
+	h1	{
+		color: yellow;
+	}
+}
+//
+// The .dev class is only used during development
+// and auto shows you additional links in the s2
+// Remove the class in the source when it is
+// ready to be built.
+//
+
+.dev {
+  a:not(.bg) {
+    background-color: yellow;
+    .opacity(.5);
+  }
+}
+
+//
+// IE conditional class names
+// 
+
+&.lt-ie10  {
+  
+}
+
+&.lt-ie9  {
+  
+}

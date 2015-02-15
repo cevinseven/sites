@@ -1,0 +1,2 @@
+[16-Jul-2013 11:20:42] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/registration-functions.php on line 7
+[19-Dec-2014 05:12:17] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/admin-bar.php on line 48

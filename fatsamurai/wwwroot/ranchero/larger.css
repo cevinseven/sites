@@ -1,0 +1,234 @@
+a:link {
+	color: #0000FF;
+}
+
+a:visited {
+	color: #880080;
+}
+
+h3 {
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h4 {
+	color: #4169A5;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+ul {
+	font-family: sans-serif;
+	font-size: 16px;
+	list-style-position: outside;
+}
+
+ul.arrowblue2 {
+	list-style-image: url(/graphics/bullets/arrowblue_sm.gif);
+}
+ul.tinyblue {
+	list-style-image: url(/graphics/tinybullet_ltblue.jpg);
+}
+ul.bullet2 {
+	list-style-image: url(/graphics/bullets/bullet2.gif);
+}
+
+ol {
+	font-family: sans-serif;
+	font-size: 16px;
+	list-style-position: outside;
+}
+
+ol.letters {
+	list-style-type: upper-alpha;
+}
+
+ol.numbers {
+	list-style-type: decimal;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+table {
+	font-size: 16px;
+}
+
+td {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+td.bgblack {
+	background-color: #000000;
+}
+.bgblue {
+	background-color: #4169A5;
+}
+.bgltgray {
+	background-color: #eeeeee;
+}
+.newBlue {
+	background-image: url(/graphics/misc/e9eef4.gif);
+}
+td.bglines {
+	background-image: url(/graphics/boxes/photo_whiteback.gif);
+}
+td.bglines2 {
+	background-image: url(/graphics/boxes/photo_whiteback2.gif);
+}
+.ltblue {
+	background-image: url(/graphics/boxes/back_lightblue.gif);
+	background-repeat: repeat;
+}
+.blueback {
+	background-image: url(/graphics/photo/bluebox/photo_blueback.gif);
+	background-repeat: repeat-y;
+}
+td.titleback {
+	background-image: url(/graphics/photo/bluebox/title_back.gif);
+}
+td.backmenu {
+	background-image: url(/graphics/guestbook/final_backmenu_02.gif);
+}
+table.vertdots {
+	background-image: url(/graphics/press/perf_vert.gif);
+}
+td.dots {
+	background-image: url(/graphics/misc/perf.gif);
+}
+td.white {
+	background-image: url(/graphics/boxes/white.jpg);
+}
+
+.align img {
+	display: block;
+}
+
+.bgblack {
+	background-color: #000000;
+}
+
+ul.arrowblue1 {
+	list-style-image: url(/graphics/bullets/arrowblue_lg.gif);
+}
+
+ul.bullet {
+	list-style-image: url(/graphics/bullets/bullet.gif);
+}
+
+ul.fourdots {
+	list-style-image: url(/graphics/bullets/4dots.gif);
+}
+
+.blue {
+	color: #4169A5;
+}
+
+.body {
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.bold {
+	font-weight: 700;
+}
+.boldgray {
+	font-weight : 700;
+    font-family : sans-serif;
+	font-size : 14px;
+	color: #5B5B5B;
+}
+
+.caption {
+	color: #808080;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 12px;
+	}
+
+.footer {
+	color: #808080;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.header {
+	background-color: transparent;
+	color: #4169A5;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.heading {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.topHeading {
+	color: #003466;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.topSubheading {
+	color: #003466;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+.illustrationsTitle {
+	color: #5A5959;
+	font-family: "Book Antiqua", Garamond, "Bookman Old School", "Bell MT", "Times New Roman", serif;
+	font-size: x-large;
+}
+
+.italic {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.red {
+	color: #FF0000;
+}
+
+.small {
+	font-size: 14px;
+}
+
+.white {
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.whitebold {
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.graySmall {
+	color: #5A5959;
+	font-size: 14px;
+	font-family: sans-serif;
+}
