@@ -1,22 +1,32 @@
 .rework-wrap {
   width: 100%;
   height: auto;
-  text-align: center;
-  background: gray;
-  padding: 50px;
+  position: relative;
+  margin: auto;
+  font-family: arial, helvetica, sans-serif;
 }
 
-.rework-wrap h1 {
-  color: yellow;
+.rework-wrap .nav-bar {
+  text-align: center;
+}
+
+.rework-wrap .header {
+  text-align: center;
+}
+
+.rework-wrap .header h1 {
   font-size: 4em;
 }
 
 .rework-wrap .etsy {
-  margin: auto;
+  width: 100%;
+  left: 100px;
+  background-color: blue;
 }
 
-.rework-wrap .etsy iframe {
-  width: 100%;
+.rework-wrap .footer {
+  text-align: center;
+  font-size: 0.7em;
 }
 
 .dev a:not(.bg) {
