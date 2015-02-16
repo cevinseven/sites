@@ -10,23 +10,36 @@
   text-align: center;
 }
 
+.rework-wrap .nav-bar .btn-default {
+  margin-top: 3px;
+}
+
 .rework-wrap .header {
+  width: 100%;
   text-align: center;
+  padding: 10px;
 }
 
 .rework-wrap .header h1 {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 .rework-wrap .etsy {
   width: 100%;
-  left: 100px;
-  background-color: blue;
+  height: 1970px;
+  overflow: hidden;
+}
+
+.rework-wrap .etsy iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .rework-wrap .footer {
   text-align: center;
   font-size: 0.7em;
+  padding: 10px 0px 5px 0px;
 }
 
 .dev a:not(.bg) {

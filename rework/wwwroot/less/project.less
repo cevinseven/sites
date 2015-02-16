@@ -22,23 +22,35 @@
 
 .nav-bar {
   text-align: center;
+
+  .btn-default {
+    margin-top: 3px;
+  }
 }
 /////////////.header//////////////////
 
   .header {
+    width: 100%;
     text-align: center;
+    padding: 10px;
   
      h1 {
-      font-size: 4em;
+      font-size: 3.5em;
      }
   }
 
 ///////////////.etsy//////////////////
 
   .etsy {
-    width: 100%;
-    left: 100px;
-    background-color: blue;
+    .size(100%, 1970px);
+    overflow: hidden;
+    // background-color: blue;
+
+    iframe {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
   }
 
 ///////////////.footer//////////////////
@@ -46,9 +58,11 @@
   .footer {
     text-align: center;
     font-size: 0.7em;
+    padding: 10px 0px 5px 0px;
   }
 }
-//
+
+///////////////.dev//////////////////
 // The .dev class is only used during development
 // and auto shows you additional links in the s2
 // Remove the class in the source when it is
