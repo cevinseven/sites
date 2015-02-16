@@ -1,9 +1,14 @@
-.template-wrap {
-  background: blue;
+.fs-wrap {
+  width: 100%;
+  background-color: black;
 }
 
-.template-wrap h1 {
-  color: yellow;
+.fs-wrap .container-fluid {
+  padding: 3em;
+}
+
+.fs-wrap .container-fluid img {
+  margin: auto;
 }
 
 .dev a:not(.bg) {

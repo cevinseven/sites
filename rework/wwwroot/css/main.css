@@ -6,6 +6,7 @@
 
 .rework-wrap h1 {
   color: yellow;
+  font-size: 4em;
 }
 
 .dev a:not(.bg) {
