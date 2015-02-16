@@ -1,12 +1,22 @@
 .rework-wrap {
   width: 100%;
   height: auto;
+  text-align: center;
   background: gray;
+  padding: 50px;
 }
 
 .rework-wrap h1 {
   color: yellow;
   font-size: 4em;
+}
+
+.rework-wrap .etsy {
+  margin: auto;
+}
+
+.rework-wrap .etsy iframe {
+  width: 100%;
 }
 
 .dev a:not(.bg) {
