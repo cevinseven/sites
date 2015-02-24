@@ -4,24 +4,66 @@
   position: relative;
   margin: auto;
   font-family: arial, helvetica, sans-serif;
+  text-align: center;
 }
 
 .rework-wrap .nav-bar {
   text-align: center;
+  position: static;
+  top: 0px;
+  margin-bottom: 1em;
+}
+
+.rework-wrap .nav-bar button:hover,
+.rework-wrap .nav-bar a:hover {
+  background-color: turquoise;
+  opacity: .6;
 }
 
 .rework-wrap .nav-bar .btn-default {
-  margin-top: 3px;
+  margin: .1em;
 }
 
 .rework-wrap .header {
-  width: 100%;
-  text-align: center;
-  padding: 10px;
+  padding: 1em;
 }
 
 .rework-wrap .header h1 {
   font-size: 3.5em;
+}
+
+.rework-wrap .header .header-left {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/woman_back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: blue;
+}
+
+.rework-wrap .header .header-right {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/woman_sitting.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rework-wrap .rework-copy {
+  max-width: 70%;
+  min-width: 280px;
+  margin: auto;
+  background-color: turquoise;
+  border: .2em solid;
+  border-radius: 2em;
+  padding: 1em;
+  opacity: .6;
+}
+
+.rework-wrap .rework-copy p {
+  font-size: 1em;
+  color: black;
+  opacity: 1;
 }
 
 .rework-wrap .etsy {
@@ -40,6 +82,51 @@
   text-align: center;
   font-size: 0.7em;
   padding: 10px 0px 5px 0px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-tabs .dropdown-menu,
+.nav-pills .dropdown-menu,
+.navbar .dropdown-menu {
+  margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+  border-bottom: 7px solid transparent;
+  border-left: none;
+  border-right: 7px solid rgba(0, 0, 0, 0.2);
+  border-top: 7px solid transparent;
+  left: -7px;
+  top: 10px;
+}
+
+.navbar .sub-menu:after {
+  border-top: 6px solid transparent;
+  border-left: none;
+  border-right: 6px solid #fff;
+  border-bottom: 6px solid transparent;
+  left: 10px;
+  top: 11px;
+  left: -6px;
 }
 
 .dev a:not(.bg) {
