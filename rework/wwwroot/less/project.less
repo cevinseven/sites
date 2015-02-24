@@ -4,8 +4,6 @@
 //
 ///////////////////////////////////////////////////
 
-@project-path: "/sites/rework/wwwroot/img/";
-
 ///////////////////////////////////////////////////
 //
 // Project custom styles
@@ -13,93 +11,41 @@
 ///////////////////////////////////////////////////
 
 .rework-wrap {
-  .size(100%, auto);
+  max-width: 100%;
   position: relative;
   margin: auto;
   font-family: @font-stack;
   text-align: center;
 
+  // > div {
+  //   position: relative;
+  //   overflow: hidden;
+
+  //   h1,h3,p {
+  //     position: absolute;
+  //     top: 150%;
+  //   }
+
+  //   a {
+  //     position: absolute;
+  //     display: block;
+  //     .ir();
+  //   }
+  }
+
 /////////////.nav-bar//////////////////
 
 .nav-bar {
   text-align: center;
-  position: static;
-  top: 0px;
-  margin-bottom: 1em;
+  // margin-bottom: .5em;
 
-  button:hover,
-  a:hover {
+  button:hover {
     background-color: turquoise;
     opacity: .6;
   }
 
   .btn-default {
     margin: .1em;
-  }
-}
-
-/////////////.header//////////////////
-
-  .header {
-    padding: 1em;
-
-     h1 {
-      font-size: 3.5em;
-     }
-
-    .header-left {
-      .size(100%, auto);
-      background-image: url(../img/woman_back.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-color: blue;
-    }
-
-    .header-right {
-      .size(100%, auto);
-      background-image: url(../img/woman_sitting.png);
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-  }
-
-  .rework-copy {
-    max-width: 70%;
-    min-width: 280px;
-    margin: auto;
-    background-color: turquoise;
-    border: .2em solid;
-    border-radius: 2em;
-    padding: 1em;
-    opacity: .6;
-
-    p {
-      font-size: 1em;
-      color: black;
-      opacity: 1;
-    }
-  }
-
-///////////////.etsy//////////////////
-
-  .etsy {
-    .size(100%, 1970px);
-    overflow: hidden;
-    // background-color: blue;
-
-    iframe {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-    }
-  }
-
-///////////////.footer//////////////////
-
-  .footer {
-    text-align: center;
-    font-size: 0.7em;
-    padding: 10px 0px 5px 0px;
   }
 }
 
@@ -145,9 +91,100 @@
     left: -6px;
 }
 
+/////////////.header//////////////////
 
+  .header {
+    .size(100%, 700px);
+    overflow: hidden;
 
+     h1 {
+      font-size: 3.5em;
+     }
+  }
 
+///////////////////////////////////
+////////.slideshow content/////////
+///////////////////////////////////
+
+  .flexsider {
+    border: none;
+  }
+
+  .slideshow {
+    position: relative;
+
+    .slides > li {
+      .size(100%, 700px);
+      // display: block;
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center; 
+    }
+
+    .slide-1 {
+      background-image: url('/img/slide_1.png');
+    }
+
+    .slide-2 {
+      background-image: url('/img/slide_2.png');
+    }
+
+    .flex-prev {
+      .size(30px, 120px);
+      margin-left: 1px;
+    }
+
+    .flex-next {
+      .size(30px, 120px);
+      margin-right: 1px;
+    }
+
+    .flex-direction-nav a {
+      top: 40%;
+      z-index: 100;
+    }
+  }
+
+///////////////.about//////////////////
+  .rework-copy {
+    max-width: 80%;
+    min-width: 280px;
+    margin: 1em auto;
+    background-color: turquoise;
+    border: .2em solid;
+    border-radius: 2em;
+    padding: 1em;
+    opacity: .5;
+
+    p {
+      font-size: 1em;
+      color: black;
+      opacity: 1;
+    }
+  }
+
+///////////////.etsy//////////////////
+
+.etsy {
+  .size(100%, 1970px);
+  overflow: hidden;
+  // background-color: blue;
+
+  iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+///////////////.footer//////////////////
+
+.footer {
+  .size(100%, 50px);
+  text-align: center;
+  font-size: 0.7em;
+  padding: 10px 0px 5px 0px;
+}
 
 ///////////////.dev//////////////////
 // The .dev class is only used during development
