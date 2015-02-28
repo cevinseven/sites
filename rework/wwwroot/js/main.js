@@ -6,8 +6,8 @@ $(document).ready(function () {
     animation: 'slide',
     directionNav: true,
     controlNav: false,
-    slideshowSpeed: 4000,
-    animationSpeed: 1000,
+    slideshowSpeed: 5000,
+    animationSpeed: 2000,
     pauseOnHover: true,
     after: function () {
       $('.slide-nav li')

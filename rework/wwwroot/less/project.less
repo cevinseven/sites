@@ -33,10 +33,12 @@
   }
 
 .filigree {
-  .size(100%, 28px);
+  .size(82%, 2em);
   background-image: url('/img/owl_dot.png');
   opacity: .6;
   margin-bottom: .2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /////////////.nav-bar//////////////////
@@ -161,7 +163,7 @@
  
   .about {
     .size(100%, auto);
-    max-width: 960px;
+    max-width: 80%;
     min-width: 280px;
     // background-image: url('/img/rework_about.jpg');
     background-repeat: no-repeat;
@@ -179,12 +181,9 @@
     border-radius: 2em;
     padding: 2em;
     opacity: .6;
-    // position: relative;
-    // top: 50%;
-    // transform: translateY(-50%);
 
     p {
-      font-size: 1.1em;
+      font-size: 1em;
       color: black;
       opacity: 1;
     }
@@ -195,31 +194,47 @@
 .contact-form {
   .size(100%, auto);
   overflow: hidden;
-  max-width: 305px;
+  max-width: 95%;
   min-width: 280px;
-  padding: 3em;
+  padding: 1em;
   margin: auto;
+  margin-top: .5em;
+  opacity: .8;
   border: .1em solid sienna;
   border-radius: 2em;
   text-transform: uppercase;
   color: sienna;
+  text-align: center;
+  font-size: .9em;
 
-  label,
+  div {
+    display: inline-block;
+  }
+
   input {
-    margin-bottom: 1em;
+    margin: 1.5em;
   }
 
   button {
-    margin-top: 1em;
+    margin: 3em 1em 0.5em 1em;
     color: sienna;
     background-color: white;
+    font-weight: bold;
+    height: 3em;
+    bottom: 0px;
+  }
+
+  textarea#msg {
+    margin: 0em 0em -2em 1.5em;
+    height: 5em;
+    width: 15em;
   }
 }
 
 ///////////////.etsy//////////////////
 
 .etsy {
-  .size(100%, 1970px);
+  .size(100%, auto);
   overflow: hidden;
   // background-color: blue;
 
@@ -235,8 +250,8 @@
 .footer {
   .size(100%, 50px);
   text-align: center;
-  font-size: 0.7em;
-  padding: 10px 0px 5px 0px;
+  font-size: .7em;
+  padding: 10px 5px 5px 5px;
 }
 
 ///////////////.dev//////////////////
