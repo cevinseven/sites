@@ -12,32 +12,41 @@
   </head>
   <body>
   	<div class="rework-wrap">
-      <div class="filigree"></div>
+      <!-- <div class="filigree"></div> -->
       <div class="nav-bar">
-            <div class="btn-group" role="group">
-              <button type="button" class="btn btn-md btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                creations
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="featured.html">featured items</a></li>
-                <li><a href="#">neck armor</a></li>
-                <li><a href="#">rings</a></li>
-                <li><a href="#">pendants</a></li>
-                <li><a href="#">bohemian necklaces</a></li>
-                <li><a href="#">earrings</a></li>
-              </ul>
-            </div>
           <div class="btn-group" role="group" aria-label="...">
-            <a href="index.html"><button type="button" class="btn btn-md btn-default">home</button></a>
-            <a href="about.html"><button type="button" class="btn btn-md btn-default">about us</button></a>
+            <a href="featured.html"><button type="button" class="btn btn-md btn-pills">creations</button></a>
+            <a href="index.html"><button type="button" class="btn btn-md btn-pills">gallery</button></a>
+            <a href="about.html"><button type="button" class="btn btn-md btn-pills">about</button></a>
           </div>
-      </div> 
+      </div>
 
       <div class="store">
         <div id="my-store-6781204"></div>
         <div>
           <script type="text/javascript" src="http://app.ecwid.com/script.js?6781204" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(3,3) list(10) table(20)","categoryView=grid","searchView=list","id=my-store-6781204");</script>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="contact-form">
+          <form action="mailto:toni@reworkcreative.com" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+          <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+          </div>
+          <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg"></textarea>
+          </div>
+          <div class="button">
+              <button type="submit">send us some love!</button>
+          </div>
+          </form>
         </div>
       </div>
 

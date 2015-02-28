@@ -2,7 +2,7 @@ $(document).ready(function () {
   var $flex = $('.flexslider');
 
   $flex.flexslider({
-    slideshow: true,
+    slideshow: false,
     animation: 'slide',
     directionNav: true,
     controlNav: false,
