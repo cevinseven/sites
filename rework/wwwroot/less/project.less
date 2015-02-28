@@ -15,7 +15,6 @@
   position: relative;
   margin: auto;
   font-family: @font-stack;
-  text-align: center;
 
   // > div {
   //   position: relative;
@@ -33,20 +32,32 @@
   //   }
   }
 
+.filigree {
+  .size(100%, 28px);
+  background-image: url('/img/owl_dot.png');
+  opacity: .6;
+  margin-bottom: .2em;
+}
+
 /////////////.nav-bar//////////////////
 
 .nav-bar {
   text-align: center;
-  margin-bottom: .3em;
+  margin: .6em;
 
   button:hover,
   .dropdown-menu>li>a:hover {
     background-color: turquoise;
-    opacity: .5;
+    opacity: .7;
+    font: bold;
   }
 
   .btn-default {
     margin: .1em;
+  }
+
+  .btn-md {
+    color: sienna;
   }
 }
 
@@ -147,15 +158,30 @@
   }
 
 ///////////////.about//////////////////
-  .rework-copy {
-    max-width: 80%;
+ 
+  .about {
+    .size(100%, auto);
+    max-width: 960px;
+    min-width: 280px;
+    // background-image: url('/img/rework_about.jpg');
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    padding: .5em 0;
+    overflow: hidden;
+  }
+
+  .rework-copy {    
+    max-width: 95%;
     min-width: 280px;
     margin: auto;
-    background-color: turquoise;
-    border: .2em solid;
+    border: .1em solid sienna;
     border-radius: 2em;
-    padding: 1em;
+    padding: 2em;
     opacity: .6;
+    // position: relative;
+    // top: 50%;
+    // transform: translateY(-50%);
 
     p {
       font-size: 1.1em;
@@ -163,6 +189,32 @@
       opacity: 1;
     }
   }
+
+///////////////.contact//////////////////
+
+.contact-form {
+  .size(100%, auto);
+  overflow: hidden;
+  max-width: 305px;
+  min-width: 280px;
+  padding: 3em;
+  margin: auto;
+  border: .1em solid sienna;
+  border-radius: 2em;
+  text-transform: uppercase;
+  color: sienna;
+
+  label,
+  input {
+    margin-bottom: 1em;
+  }
+
+  button {
+    margin-top: 1em;
+    color: sienna;
+    background-color: white;
+  }
+}
 
 ///////////////.etsy//////////////////
 
