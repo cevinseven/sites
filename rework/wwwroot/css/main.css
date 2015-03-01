@@ -179,6 +179,10 @@
   overflow: hidden;
 }
 
+.store tr span {
+  color: sienna;
+}
+
 .footer {
   width: 100%;
   height: 50px;
