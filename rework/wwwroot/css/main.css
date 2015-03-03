@@ -1,4 +1,5 @@
 .rework-wrap {
+  width: 100%;
   max-width: 100%;
   position: relative;
   margin: auto;
@@ -70,6 +71,11 @@
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.slideshow .slides > li img {
+  width: 100%;
+  max-width: 100%;
 }
 
 .slideshow .slide-1 {
