@@ -80,7 +80,6 @@
 
 .slideshow .slide-1 {
   background-image: url('/img/slide_1.jpg');
-  height: 400px;
 }
 
 .slideshow .slide-2 {
@@ -89,6 +88,14 @@
 
 .slideshow .slide-3 {
   background-image: url('/img/slide_3.jpg');
+}
+
+.slideshow .slide-4 {
+  background-image: url('/img/slide_4.jpg');
+}
+
+.slideshow .slide-5 {
+  background-image: url('/img/slide_5.jpg');
 }
 
 .slideshow .flex-prev {
