@@ -13,6 +13,7 @@
 .rework-wrap {
   width: 100%;
   max-width: 100%;
+  min-width: 320px;
   position: relative;
   margin: auto;
   font-family: @font-stack;
@@ -33,15 +34,15 @@
   //   }
   }
 
-.filigree {
-  .size(82%, 1px);
-  // background-image: url('/img/owl_dot.png');
-  background-color: sienna;
-  opacity: .6;
-  margin-bottom: .2em;
-  margin-left: auto;
-  margin-right: auto;
-}
+// .filigree {
+//   .size(82%, 1px);
+//   // background-image: url('/img/owl_dot.png');
+//   background-color: sienna;
+//   opacity: .6;
+//   margin-bottom: .2em;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
 
 /////////////.nav-bar//////////////////
 
@@ -264,8 +265,8 @@
 //
 
 .dev {
-  a:not(.bg) {
-    background-color: yellow;
+  a {
+    background-color: yellow !important;
     .opacity(.5);
   }
 }

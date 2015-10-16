@@ -1,19 +1,10 @@
 .rework-wrap {
   width: 100%;
   max-width: 100%;
+  min-width: 320px;
   position: relative;
   margin: auto;
   font-family: arial, helvetica, sans-serif;
-}
-
-.filigree {
-  width: 82%;
-  height: 1px;
-  background-color: sienna;
-  opacity: .6;
-  margin-bottom: .2em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .nav-bar {
@@ -204,8 +195,8 @@
   padding: 10px 5px 5px 5px;
 }
 
-.dev a:not(.bg) {
-  background-color: yellow;
+.dev a {
+  background-color: yellow !important;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
   filter: alpha(opacity=50);
   -webkit-opacity: 0.5;
