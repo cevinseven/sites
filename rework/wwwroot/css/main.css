@@ -18,13 +18,11 @@
   z-index: 2;
 }
 
-.nav-bar button:hover,
-.nav-bar button:focus,
-.nav-bar button:active,
-.nav-bar button:visited {
-  background-color: turquoise;
+.nav-bar button:hover {
+  background-color: sienna;
   opacity: .7;
   font: bold;
+  color: white;
 }
 
 .nav-bar .btn-group {
@@ -38,77 +36,29 @@
   border: 1px solid sienna;
 }
 
+.nav-bar .btn-pills.active {
+  color: white;
+  background-color: sienna;
+}
+
 .sidebar-nav {
   padding: 9px 0;
 }
 
-.header {
+.main {
   width: 100%;
-  height: auto;
+  height: 17em;
   overflow: hidden;
+  margin-top: 3em;
 }
 
-.header h1 {
-  font-size: 3.5em;
-}
-
-.flexsider {
-  border: none;
-}
-
-.slideshow {
-  position: absolute;
-  top: 4em;
-}
-
-.slideshow .slides > li {
-  width: 100%;
-  height: 600px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.slideshow .slides > li img {
+.main img {
   width: 100%;
   max-width: 100%;
 }
 
-.slideshow .slide-1 {
-  background-image: url('/img/slide_1.jpg');
-}
-
-.slideshow .slide-2 {
-  background-image: url('/img/slide_2.jpg');
-}
-
-.slideshow .slide-3 {
-  background-image: url('/img/slide_3.jpg');
-}
-
-.slideshow .slide-4 {
-  background-image: url('/img/slide_4.jpg');
-}
-
-.slideshow .slide-5 {
-  background-image: url('/img/slide_5.jpg');
-}
-
-.slideshow .flex-prev {
-  width: 30px;
-  height: 120px;
-  margin-left: 1px;
-}
-
-.slideshow .flex-next {
-  width: 30px;
-  height: 120px;
-  margin-right: 1px;
-}
-
-.slideshow .flex-direction-nav a {
-  top: 40%;
-  z-index: 100;
+.main h1 {
+  font-size: 3.5em;
 }
 
 .about {
@@ -121,7 +71,7 @@
   position: relative;
   padding: .5em 0;
   overflow: hidden;
-  margin-top: 4em;
+  margin-top: 1em;
 }
 
 .rework-copy {
@@ -138,6 +88,18 @@
   opacity: 1;
 }
 
+.store {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 5em;
+}
+
+.store tr span {
+  color: sienna;
+}
+
 .contact-form {
   width: 100%;
   height: auto;
@@ -145,8 +107,7 @@
   max-width: 95%;
   min-width: 280px;
   padding: 0em 0em 2em 0em;
-  margin: auto;
-  margin-top: .5em;
+  margin: 0em auto 1em auto;
   opacity: .8;
   text-transform: uppercase;
   color: sienna;
@@ -182,23 +143,17 @@
   width: 15em;
 }
 
-.store {
-  width: 85%;
-  height: auto;
-  margin: auto;
-  overflow: hidden;
-}
-
-.store tr span {
-  color: sienna;
+.contact {
+  margin-top: 5em;
 }
 
 .footer {
   width: 100%;
-  height: 50px;
+  height: 3em;
   text-align: center;
   font-size: .7em;
-  padding: 10px 5px 5px 5px;
+  padding: .4em .3em .7em .3em;
+  background-color: white;
 }
 
 .dev a {
