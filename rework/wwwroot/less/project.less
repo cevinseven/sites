@@ -48,9 +48,14 @@
 
 .nav-bar {
   // background-image: url('/img/wheel_bg.png');
-  height: 40px;
+  width: 100%;
+  height: 4em;
   text-align: center;
-  margin: .6em;
+  padding: .6em;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  z-index: 2;
 
   button:hover,
   button:focus,
@@ -62,7 +67,6 @@
   }
 
   .btn-group {
-    background: white;
     padding: 0em 1em 1em 1em;
   }
 
@@ -96,7 +100,8 @@
   }
 
   .slideshow {
-    position: relative;
+    position: absolute;
+    top: 4em;
 
     .slides > li {
       .size(100%, 600px);
@@ -153,6 +158,7 @@
     position: relative;
     padding: .5em 0;
     overflow: hidden;
+    margin-top: 4em;
   }
 
   .rework-copy {    
