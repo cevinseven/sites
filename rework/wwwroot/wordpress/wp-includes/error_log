@@ -1,2 +1,112 @@
 [16-Jul-2013 11:20:42] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/registration-functions.php on line 7
 [19-Dec-2014 05:12:17] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/admin-bar.php on line 48
+[24-Jul-2015 11:02:51] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/rss-functions.php on line 8
+[24-Jul-2015 20:44:13] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/rss-functions.php on line 8
+[15-Sep-2015 12:42:39] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/general-template.php on line 1626
+[15-Sep-2015 12:42:39] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rss2.php on line 8
+[15-Sep-2015 12:42:39] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/rss.php on line 19
+[15-Sep-2015 12:42:39] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/nav-menu-template.php on line 16
+[15-Sep-2015 12:42:39] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-atom.php on line 8
+[15-Sep-2015 12:42:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/registration-functions.php on line 7
+[15-Sep-2015 12:42:42] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/kses.php on line 1620
+[15-Sep-2015 12:42:45] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/registration.php on line 7
+[15-Sep-2015 12:42:45] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rss.php on line 8
+[15-Sep-2015 12:42:46] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/class-feed.php on line 4
+[15-Sep-2015 12:42:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/class-feed.php on line 4
+[15-Sep-2015 12:42:47] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/tonijohn/public_html/wp-includes/class.wp-scripts.php on line 19
+[15-Sep-2015 12:42:49] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/tonijohn/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[15-Sep-2015 12:42:52] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/admin-bar.php on line 48
+[15-Sep-2015 12:42:52] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/class-simplepie.php on line 5
+[15-Sep-2015 12:42:52] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/class-simplepie.php on line 5
+[15-Sep-2015 12:42:52] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/class-simplepie.php on line 5
+[15-Sep-2015 12:42:53] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/shortcodes.php on line 554
+[15-Sep-2015 12:42:53] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/default-filters.php on line 17
+[15-Sep-2015 12:42:53] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/author-template.php on line 471
+[15-Sep-2015 12:42:54] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/class-wp-embed.php on line 26
+[15-Sep-2015 12:42:56] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/category-template.php on line 893
+[15-Sep-2015 12:42:57] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/ms-functions.php on line 2066
+[15-Sep-2015 12:42:58] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/theme.php on line 677
+[15-Sep-2015 12:42:59] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/post-formats.php on line 170
+[15-Sep-2015 12:42:59] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/ms-settings.php on line 14
+[15-Sep-2015 12:42:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/ms-settings.php on line 14
+[15-Sep-2015 12:43:00] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-atom-comments.php on line 8
+[15-Sep-2015 12:43:01] PHP Fatal error:  Call to undefined function  is_admin() in /home/tonijohn/public_html/wp-includes/vars.php on line 23
+[15-Sep-2015 12:43:04] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/script-loader.php on line 25
+[15-Sep-2015 12:43:04] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/script-loader.php on line 25
+[15-Sep-2015 12:43:04] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/script-loader.php on line 25
+[15-Sep-2015 12:43:05] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/tonijohn/public_html/wp-includes/media.php on line 769
+[15-Sep-2015 12:43:06] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/post.php on line 167
+[15-Sep-2015 12:43:06] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/ms-default-constants.php on line 153
+[15-Sep-2015 12:43:06] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/tonijohn/public_html/wp-includes/class.wp-styles.php on line 19
+[15-Sep-2015 12:43:07] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/tonijohn/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[15-Sep-2015 12:43:09] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/post-template.php on line 1232
+[15-Sep-2015 12:43:10] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/class-snoopy.php on line 6
+[15-Sep-2015 12:43:10] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/canonical.php on line 552
+[15-Sep-2015 12:43:11] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rss2-comments.php on line 8
+[15-Sep-2015 12:43:12] PHP Fatal error:  Call to undefined function  is_robots() in /home/tonijohn/public_html/wp-includes/template-loader.php on line 28
+[15-Sep-2015 12:43:12] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/functions.php on line 8
+[15-Sep-2015 12:43:12] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/functions.php on line 8
+[15-Sep-2015 12:43:12] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/functions.php on line 8
+[15-Sep-2015 12:43:13] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/rss-functions.php on line 8
+[15-Sep-2015 12:43:13] PHP Fatal error:  Call to undefined function  is_main_site() in /home/tonijohn/public_html/wp-includes/update.php on line 651
+[15-Sep-2015 12:43:13] PHP Fatal error:  Class 'WP_Widget' not found in /home/tonijohn/public_html/wp-includes/default-widgets.php on line 14
+[15-Sep-2015 12:43:13] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/ms-default-filters.php on line 17
+[15-Sep-2015 12:43:13] PHP Fatal error:  Class 'IXR_Client' not found in /home/tonijohn/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[15-Sep-2015 12:43:14] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rdf.php on line 8
+[15-Sep-2015 12:43:14] PHP Fatal error:  Class 'IXR_Server' not found in /home/tonijohn/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[15-Sep-2015 12:43:15] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/comment-template.php on line 1563
+[15-Sep-2015 12:43:15] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/taxonomy.php on line 129
+[17-Sep-2015 01:30:31] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/ms-functions.php on line 2066
+[17-Sep-2015 01:30:31] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/theme.php on line 677
+[17-Sep-2015 01:30:37] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/tonijohn/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[17-Sep-2015 01:30:38] PHP Fatal error:  Class 'IXR_Client' not found in /home/tonijohn/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[17-Sep-2015 01:30:39] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/category-template.php on line 893
+[17-Sep-2015 01:30:39] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rss2.php on line 8
+[17-Sep-2015 01:30:39] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/class-snoopy.php on line 6
+[17-Sep-2015 01:30:39] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/rss.php on line 19
+[17-Sep-2015 01:30:40] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/post-formats.php on line 170
+[17-Sep-2015 01:30:40] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/canonical.php on line 552
+[17-Sep-2015 01:30:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/rss-functions.php on line 8
+[17-Sep-2015 01:30:43] PHP Fatal error:  Class 'WP_Widget' not found in /home/tonijohn/public_html/wp-includes/default-widgets.php on line 14
+[17-Sep-2015 01:30:45] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/ms-default-constants.php on line 153
+[17-Sep-2015 01:30:51] PHP Fatal error:  Call to undefined function  is_admin() in /home/tonijohn/public_html/wp-includes/vars.php on line 23
+[17-Sep-2015 01:30:51] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rdf.php on line 8
+[17-Sep-2015 01:30:53] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/tonijohn/public_html/wp-includes/class.wp-styles.php on line 19
+[17-Sep-2015 01:30:55] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/admin-bar.php on line 48
+[17-Sep-2015 01:30:57] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/default-filters.php on line 17
+[17-Sep-2015 01:31:00] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/post.php on line 167
+[17-Sep-2015 01:31:00] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/comment-template.php on line 1563
+[17-Sep-2015 01:31:05] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/shortcodes.php on line 563
+[17-Sep-2015 01:31:05] PHP Fatal error:  Call to undefined function  add_shortcode() in /home/tonijohn/public_html/wp-includes/media.php on line 769
+[17-Sep-2015 01:31:07] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/tonijohn/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[17-Sep-2015 01:31:15] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/kses.php on line 1620
+[17-Sep-2015 01:31:17] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/author-template.php on line 471
+[17-Sep-2015 01:31:20] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-atom-comments.php on line 8
+[17-Sep-2015 01:31:21] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-atom.php on line 8
+[17-Sep-2015 01:31:22] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/functions.php on line 8
+[17-Sep-2015 01:31:22] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/functions.php on line 8
+[17-Sep-2015 01:31:22] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/functions.php on line 8
+[17-Sep-2015 01:31:22] PHP Fatal error:  Class 'IXR_Server' not found in /home/tonijohn/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[17-Sep-2015 01:31:24] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/class-feed.php on line 4
+[17-Sep-2015 01:31:24] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/class-feed.php on line 4
+[17-Sep-2015 01:31:26] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rss2-comments.php on line 8
+[17-Sep-2015 01:31:26] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/ms-default-filters.php on line 17
+[17-Sep-2015 01:31:27] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/taxonomy.php on line 129
+[17-Sep-2015 01:31:28] PHP Fatal error:  Call to undefined function  is_main_site() in /home/tonijohn/public_html/wp-includes/update.php on line 651
+[17-Sep-2015 01:31:29] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/nav-menu-template.php on line 16
+[17-Sep-2015 01:31:31] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/registration.php on line 7
+[17-Sep-2015 01:31:34] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/tonijohn/public_html/wp-includes/feed-rss.php on line 8
+[17-Sep-2015 01:31:35] PHP Fatal error:  Call to undefined function  add_action() in /home/tonijohn/public_html/wp-includes/general-template.php on line 1626
+[17-Sep-2015 01:31:35] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/tonijohn/public_html/wp-includes/class.wp-scripts.php on line 19
+[17-Sep-2015 01:31:38] PHP Fatal error:  Class 'Walker' not found in /home/tonijohn/public_html/wp-includes/post-template.php on line 1232
+[17-Sep-2015 01:31:39] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/ms-settings.php on line 14
+[17-Sep-2015 01:31:39] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/ms-settings.php on line 14
+[17-Sep-2015 01:31:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tonijohn/public_html/wp-includes/registration-functions.php on line 7
+[17-Sep-2015 01:31:41] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/class-simplepie.php on line 5
+[17-Sep-2015 01:31:41] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/class-simplepie.php on line 5
+[17-Sep-2015 01:31:41] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/class-simplepie.php on line 5
+[17-Sep-2015 01:31:43] PHP Fatal error:  Call to undefined function  is_robots() in /home/tonijohn/public_html/wp-includes/template-loader.php on line 28
+[17-Sep-2015 01:31:43] PHP Fatal error:  Call to undefined function  add_filter() in /home/tonijohn/public_html/wp-includes/class-wp-embed.php on line 26
+[17-Sep-2015 01:31:46] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/script-loader.php on line 25
+[17-Sep-2015 01:31:46] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tonijohn/public_html/wp-includes/script-loader.php on line 25
+[17-Sep-2015 01:31:46] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tonijohn/public_html/wp-includes/script-loader.php on line 25
