@@ -148,6 +148,14 @@
   margin-top: 5em;
 }
 
+.rework-wrap .social {
+  margin: 1em 0 2em 0;
+}
+
+.rework-wrap .social a {
+  padding: 1em;
+}
+
 .rework-wrap .footer {
   width: 100%;
   height: 3em;
