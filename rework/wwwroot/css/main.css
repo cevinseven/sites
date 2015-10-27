@@ -1,6 +1,5 @@
 .rework-wrap {
   width: 100%;
-  max-width: 100%;
   min-width: 320px;
   max-width: 1024px;
   position: relative;
@@ -11,37 +10,41 @@
 .rework-wrap .nav-bar {
   width: 100%;
   max-width: 1024px;
-  height: 4em;
+  height: 4.7rem;
   text-align: center;
-  padding: .6em 0;
+  padding: .6rem 0;
   position: fixed;
   top: 0px;
-  background-color: white;
+  background-color: sienna;
   z-index: 2;
   border-bottom: solid 1px sienna;
 }
 
+.rework-wrap .nav-bar .btn {
+  padding: .6rem .8rem;
+}
+
 .rework-wrap .nav-bar button:hover {
-  background-color: sienna;
-  opacity: .7;
+  background-color: white;
   font: bold;
-  color: white;
+  color: sienna;
 }
 
 .rework-wrap .nav-bar .btn-group {
-  padding: 0em 1em 1em 1em;
+  padding: 0em 1rem 1rem 1rem;
+  min-width: 320px;
 }
 
 .rework-wrap .nav-bar .btn-pills {
-  color: sienna;
-  margin: .2em 1.5em;
-  background-color: white;
+  color: white;
+  margin: 0rem 3rem;
+  background-color: sienna;
   border: 1px solid sienna;
 }
 
 .rework-wrap .nav-bar .btn-pills.active {
-  color: white;
-  background-color: sienna;
+  color: sienna;
+  background-color: white;
 }
 
 .rework-wrap .sidebar-nav {
@@ -52,7 +55,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  margin-top: 4em;
+  margin-top: 4.7rem;
 }
 
 .rework-wrap .main img {
@@ -97,7 +100,7 @@
   height: auto;
   margin: auto;
   overflow: hidden;
-  margin-top: 5em;
+  margin-top: 1rem;
 }
 
 .rework-wrap .store tr span {

@@ -12,74 +12,49 @@
 
 .rework-wrap {
   width: 100%;
-  max-width: 100%;
   min-width: 320px;
   max-width: 1024px;
   position: relative;
   margin: auto;
   font-family: @font-stack;
 
-  // > div {
-  //   position: relative;
-  //   overflow: hidden;
-
-  //   h1,h3,p {
-  //     position: absolute;
-  //     top: 150%;
-  //   }
-
-  //   a {
-  //     position: absolute;
-  //     display: block;
-  //     .ir();
-  //   }
-
-// .filigree {
-//   .size(82%, 1px);
-//   // background-image: url('/img/owl_dot.png');
-//   background-color: sienna;
-//   opacity: .6;
-//   margin-bottom: .2em;
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-
 /////////////.nav-bar//////////////////
-
 .nav-bar {
-  // background-image: url('/img/wheel_bg.png');
   width: 100%;
   max-width: 1024px;
-  height: 4em;
+  height: 4.7rem;
   text-align: center;
-  padding: .6em 0;
+  padding: .6rem 0;
   position: fixed;
   top: 0px;
-  background-color: white;
+  background-color: sienna;
   z-index: 2;
   border-bottom: solid 1px sienna;
 
+  .btn {
+    padding: .6rem .8rem;
+  }
 
   button:hover {
-    background-color: sienna;
-    opacity: .7;
+    background-color: white;
     font: bold;
-    color: white;
+    color: sienna;
   }
 
   .btn-group {
-    padding: 0em 1em 1em 1em;
+    padding: 0em 1rem 1rem 1rem;
+    min-width: 320px;
   }
 
   .btn-pills {
-    color: sienna;
-    margin: .2em 1.5em;
-    background-color: white;
+    color: white;
+    margin: 0rem 3rem;
+    background-color: sienna;
     border: 1px solid sienna;
 
     &.active {
-      color: white;
-      background-color: sienna;
+      color: sienna;
+      background-color: white;
     }
   }
 }
@@ -93,7 +68,7 @@
 .main {
   .size(100%, 100%);
   overflow: hidden;
-  margin-top: 4em;
+  margin-top: 4.7rem;
 
   img {
     width: 100%;
@@ -153,7 +128,7 @@
     .size(85%, auto);
     margin: auto;
     overflow: hidden;
-    margin-top: 5em;
+    margin-top: 1rem;
 
     tr span {
       color: sienna;
